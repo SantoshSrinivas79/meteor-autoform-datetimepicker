@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
-  api.use('aldeed:autoform@4.0.0 || 5.0.0');
+  api.use('aldeed:autoform@4.0.0 || 5.0.0 || 6.0.0');
   api.use('momentjs:moment@2.0.0');
   api.use('session@1.0.0');
   api.use('reactive-var@1.0.5');
