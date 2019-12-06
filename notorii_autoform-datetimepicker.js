@@ -24,7 +24,7 @@ var afDatetimepicker ={
     var sessKeys =self.formSessKeys(instid, {});
     //default - so it is defined
     Session.set(sessKeys.dateOnly, false);
-    Session.set(sessKeys.classes, {input: 'autoform-datetimepicker-input'});
+    Session.set(sessKeys.classes, {input: 'autoform-datetimepicker-input form-control'});
 
     VAL[instid] =elm.value;
 
